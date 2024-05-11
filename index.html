@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="saklar.css" rel="stylesheet">
+  <link rel="stylesheet" href="" />
+  <title>CETRAK CETREK LAMPU SESI 4</title>
+
+</head>
+<body>
+  <h2>LAMPU RUANGAN</h2>
+  <!-- lampu semua -->
+  <label for="default-toggle-ruang1" class="labelA">
+    <input type="checkbox" id="default-toggle-ruang1" class="in" onchange="saklar()">
+    <div class="slider"></div>
+  </label>
+  <!-- lampu semua -->
+  <div class="container">
+
+
+    <!-- lampu 1 -->
+    <div class="di">
+      <h2>lampu 1</h2>
+      <img src="assets/images/off.png" alt="" id="lampu1" />
+
+      <label for="default-toggle1" class="label1">
+        <input type="checkbox" id="default-toggle1" class="in1" onchange="saklar()">
+      </label>
+    </div>
+
+    <!-- lampu 2 -->
+    <div class="di">
+      <h2>lampu 2</h2>
+      <img src="assets/images/off.png" alt="" id="lampu2" />
+      <label for="default-toggle2" class="label2">
+        <input type="checkbox" id="default-toggle2" class="in2" onchange="saklar()">
+      </label>
+    </div>
+
+    <!-- lampu 3 -->
+    <div class="di">
+      <h2>lampu 3</h2>
+      <img src="assets/images/off.png" alt="" id="lampu3" />
+      <label for="default-toggle3" class="label3">
+        <input type="checkbox" id="default-toggle3" class="in3" onchange="saklar()">
+      </label>
+    </div>
+
+    
+  </div>
+  <div>
+    <a style="background-color: rgba(49, 137, 179, 0.699);
+    font-weight: 700;
+    font-size: 2rem;
+    position: absolute;
+    left: 300px;
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 10rem;
+  padding: 20px;" href="../index.html" >KEMBALI</a>
+  </div>
+  <!-- ini adalah script js -->
+  <script src="saklar.js" type="application/javascript"></script>
+</body>
+
+</html>
